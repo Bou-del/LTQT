@@ -1,0 +1,89 @@
+####################################
+# Visual Studio / .NET
+####################################
+
+# Build results
+bin/
+obj/
+out/
+
+# Visual Studio files
+.vs/
+.vscode/
+.idea/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+####################################
+# .NET Core
+####################################
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+####################################
+# ASP.NET
+####################################
+wwwroot/lib/
+
+####################################
+# Entity Framework
+####################################
+*.mdf
+*.ldf
+Migrations/*.Designer.cs
+Migrations/*.resx
+
+####################################
+# Logs
+####################################
+*.log
+
+####################################
+# OS generated files
+####################################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+####################################
+# Environment / Secrets
+####################################
+appsettings.Development.json
+appsettings.Local.json
+.env
+
+####################################
+# NuGet
+####################################
+*.nupkg
+# packages/   <-- nếu dùng packages.config thì mở dòng này
+.nuget/NuGet.Config
+
+####################################
+# Test results
+####################################
+TestResults/
+coverage/
+
+####################################
+# Publish output
+####################################
+publish/
+*.Publish.xml
+
+####################################
+# Backup & temp files
+####################################
+*.bak
+*.tmp
+*.temp
